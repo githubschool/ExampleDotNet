@@ -12,7 +12,7 @@ namespace MvcSample.Tests
             {
                 Name = "Bas Peters"
             };
-            Assert.Equal("Bas Peters", user.Name);
+            Assert.Equal("Bas Petersen", user.Name);
         }
     }
 }
