@@ -6,13 +6,13 @@ namespace MvcSample.Tests
     public class AnnaHallRiveraUserTest
     {
         [Fact]
-        public void NameTest()
+        public void myNameTest()
         {
-            AnnaHallRivera user = new AnnaHallRiveraUser()
+            AnnaHallRivera myuser = new AnnaHallRiveraUser()
             {
-                Name = "Anna Häll Rivera"
+                myName = "Anna Häll Rivera"
             };
-            Assert.Equal("Anna Häll Rivera", user.Name);
+            Assert.Equal("Anna Häll Rivera", myuser.myName);
         }
     }
 }
