@@ -7,14 +7,19 @@ using System.ComponentModel.DataAnnotations;
 /// <summary>
 /// Summary description for Cannqa
 /// </summary>
-public class Cannqa
+namespace MvcSample.Web.Models
 {
-	public Cannqa()
-	{
+    public class Cannqa
+    {
+	    public Cannqa()
+	    {
 		[Required]
         [MinLength(4)]
+
         public string Name { get; set; }
         public string Address { get; set; }
         public int Age { get; set; }
-	}
+	    }
+    }
+
 }
