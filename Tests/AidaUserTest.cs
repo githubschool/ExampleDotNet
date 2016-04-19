@@ -3,7 +3,7 @@ using MvcSample.Web.Models;
 
 namespace MvcSample.Tests
 {
-    public class UserTest
+    public class AidaUserTest
     {
         [Fact]
         public void AddressTest()
