@@ -15,5 +15,16 @@ namespace MvcSample.Tests
             };
             Assert.Equal("Solutions Engineer", user.Role);
         }
+        
+        [Fact]
+        public void CompanyTest()
+        {
+            BasUser user = new BasUser()
+            {
+                Name  = "Bas Peters",
+                Company = "GitHub"
+            };
+            Assert.Equal("GitHub", user.Company);
+        }
     }
 }
