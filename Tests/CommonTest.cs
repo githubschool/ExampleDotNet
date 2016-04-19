@@ -11,6 +11,12 @@ namespace MvcSample.Tests
         }
 
         [Fact]
+	public void PassingTest()
+		        {
+	     Assert.Equal(5, Add(3, 2));
+				            }
+
+        [Fact]
         public void FailingTest()
         {
             Assert.Equal(5, Add(2, 3));
