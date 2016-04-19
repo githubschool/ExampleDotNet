@@ -1,5 +1,5 @@
 ﻿@using MvcSample.Web.Models
-@model User
+@model Employee
 @{
     Layout = "/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Home Page";
@@ -14,3 +14,13 @@
 <div class="row">
     <h3 title="@Model.Name" class="@helloClass">Hello @Model.Name!</h3>
 </div>
+
+
+<div class="row">
+    <h3 title="@Model.EmployeeID" class="@helloClass">Employee ID : @Model.EmployeeID</h3>
+</div>
+
+<div class="row">
+    <h3 title="@Model.OfficeLocation" class="@helloClass">Office Location :  @Model.OfficeLocation</h3>
+</div>
+
