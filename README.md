@@ -9,7 +9,7 @@ git clone https://github.com/githubschool/ExampleDotNet.git
 dnu restore
 dnx web
 ```
-To run the tests locally run:
+To Run the tests locally run:
 ```
 dnx test
 ```
