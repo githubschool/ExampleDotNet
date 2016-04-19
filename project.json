@@ -23,7 +23,11 @@
         "web": "Microsoft.AspNet.Server.Kestrel"
     },
     "frameworks": {
-         "dnx451": { },
-         "dnxcore50": { }
+        "dnx451": {
+            "frameworkAssemblies": {
+                "System.ComponentModel.DataAnnotations": "4.0.0.0"
+            }
+        },
+        "dnxcore50": { }
     }
 }

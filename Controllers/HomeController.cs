@@ -10,12 +10,15 @@ namespace MvcSample.Web
             return View(CreateUser());
         }
 
-        public User CreateUser()
+        public UserBanenen CreateUser()
         {
-            User user = new User()
+            var user = new UserBanenen()
             {
-                Name = "Bas Peters",
-                Address = "Weteringschans 165"
+                Name = "Fritz schnitzell",
+                Address = "Weteringschans 165",
+                Age = 134,
+                Bendition = 80,
+                Yellowness = 3            
             };
 
             return user;
