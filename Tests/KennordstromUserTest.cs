@@ -14,5 +14,15 @@ namespace MvcSample.Tests
             };
             Assert.Equal("Ken Nordström", user.Name);
         }
+        
+        [Fact]
+        public void RoleTest()
+        {
+            KennordstromUser user = new KennordstromUser()
+            {
+                Role = "Developer"
+            };
+            Assert.Equal("Developer", user.Role);
+        }
     }
 }
