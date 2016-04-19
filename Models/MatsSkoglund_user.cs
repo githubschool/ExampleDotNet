@@ -9,7 +9,7 @@ namespace MvcSample.Web.Models
         [MinLength(4)]
         public string Name { 
             get{ 
-                return "Skoglun Mats"; 
+                return "Skoglund Mats"; 
             } 
             set{ 
                 name=value;    
