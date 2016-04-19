@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MvcSample.Web.Models
 {
-    public class User
+    public class MatsSkoglund_User
     {
         [Required]
         [MinLength(4)]
