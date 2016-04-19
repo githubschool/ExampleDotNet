@@ -22,7 +22,7 @@ namespace MvcSample.Tests
             {
                Age = 20
             };
-            Assert.Equal(2, user.Age);
+            Assert.Equal(20, user.Age);
         }
     }
 }
