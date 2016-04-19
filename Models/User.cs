@@ -2,6 +2,7 @@
 
 namespace MvcSample.Web.Models
 {
+
     public class User
     {
         [Required]
