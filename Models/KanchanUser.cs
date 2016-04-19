@@ -2,7 +2,7 @@
 
 namespace MvcSample.Web.Models
 {
-    public class User
+    public class KanchanUser
     {
         [Required]
         [MinLength(4)]

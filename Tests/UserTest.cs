@@ -8,11 +8,11 @@ namespace MvcSample.Tests
         [Fact]
         public void NameTest()
         {
-            User user = new User()
+            KanchanUser user = new KanchanUser()
             {
                 Name = "Kanchan Gaikwad"
             };
-            Assert.Equal("Bas Peters", user.Name);
+            Assert.Equal("Kanchan Gaikwad", user.Name);
         }
     }
 }
