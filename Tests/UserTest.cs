@@ -10,9 +10,9 @@ namespace MvcSample.Tests
         {
             User user = new User()
             {
-                Name = "Bas Peters"
+                Name = "Kanchan Gaikwad"
             };
-            Assert.Equal("Bas Peters", user.Name);
+            Assert.Equal("Kanchan Gaikwad", user.Name);
         }
     }
 }
