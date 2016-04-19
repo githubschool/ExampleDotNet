@@ -1,18 +1,18 @@
-using Xunit;
+﻿using Xunit;
 using MvcSample.Web.Models;
 
 namespace MvcSample.Tests
 {
-    public partial class UserTest
+    public partial class UserTestSsseqj
     {
         [Fact]
         public void NameTest()
         {
             User user = new User()
             {
-                Name = "Bas Peters"
+                Name = "Johan Eriksson"
             };
-            Assert.Equal("Bas Peters", user.Name);
+            Assert.Equal("Johan Eriksson", user.Name);
         }
     }
 }
