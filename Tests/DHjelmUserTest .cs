@@ -8,7 +8,7 @@ namespace MvcSample.Tests
         [Fact]
         public void NameTest()
         {
-          DHjelmUser user = new DHjelmUser()
+            DHjelmUser user = new DHjelmUser()
             {
                 Name = "Daniel Hjelm"
             };

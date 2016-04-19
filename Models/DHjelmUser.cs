@@ -1,17 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.ComponentModel.DataAnnotations;
 
-/// <summary>
-/// Summary description for DHjelmUser
-/// </summary>
-public class DHjelmUser
+namespace MvcSample.Web.Models
 {
-	public DHjelmUser()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+  public class DHjelmUser
+  {
+
+    [Required]
+    [MinLength(4)]
+    public string Name { get; set; }
+    public string Address { get; set; }
+    public int Age { get; set; }
+    public int Length { get; set; }
+
+
+  }
 }
