@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Mvc;
+﻿using ExampleDotNet.Models;
+using Microsoft.AspNet.Mvc;
 using MvcSample.Web.Models;
 
 namespace MvcSample.Web
@@ -20,5 +21,17 @@ namespace MvcSample.Web
 
             return user;
         }
+
+        public FBProduct CreateProduct()
+        {
+            FBProduct product = new FBProduct()
+            {
+                Name = "Bas Peters",
+                Description = "Weteringschans 165"
+            };
+
+            return product;
+        }
+
     }
 }
