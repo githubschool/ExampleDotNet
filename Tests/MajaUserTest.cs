@@ -10,9 +10,19 @@ namespace MvcSample.Tests
         {
             MajaUser user = new MajaUser()
             {
-                Name = "Maja"
+                FirstName = "Maja"
             };
-            Assert.Equal("Maja", user.Name);
+            Assert.Equal("Maja", user.FirstName);
+        }
+
+        [Fact]
+        public void PetTest()
+        {
+            MajaUser user = new MajaUser()
+            {
+                Pet = "OctoCat"
+            };
+            Assert.Equal("OctoCat", user.Pet);
         }
     }
 }
