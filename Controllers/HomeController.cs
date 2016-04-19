@@ -10,12 +10,12 @@ namespace MvcSample.Web
             return View(CreateUser());
         }
 
-        public User CreateUser()
+        public LGTaubeUser CreateUser()
         {
-            User user = new User()
+            LGTaubeUser user = new LGTaubeUser()
             {
-                Name = "Bas Peters",
-                Address = "Weteringschans 165"
+                Name = "LG Taube",
+                Address = "Internet"
             };
 
             return user;
