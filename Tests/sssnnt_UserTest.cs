@@ -1,5 +1,5 @@
 using Xunit;
-using MvcSample.Web.Models;
+using MvcSample.Web.Models;  
 
 namespace MvcSample.Tests
 {
