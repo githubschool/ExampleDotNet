@@ -10,5 +10,7 @@ namespace MvcSample.Web.Models
         public string Name { get; set; }
         public string Address { get; set; }
         public int Age { get; set; }
+        public double Bendition { get; set; }
+        public int Yellowness { get; set; } 
     }
 }
