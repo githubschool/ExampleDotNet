@@ -14,8 +14,8 @@ namespace MvcSample.Web
         {
             User user = new User()
             {
-                Name = "Bas Peters",
-                Address = "Weteringschans 165"
+                Name = "Kanchan Gaikwad",
+                Address = "Klöckervägen 133"
             };
 
             return user;
