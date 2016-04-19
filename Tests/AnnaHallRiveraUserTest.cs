@@ -3,12 +3,12 @@ using MvcSample.Web.Models;
 
 namespace MvcSample.Tests
 {
-    public class UserTest
+    public class AnnaHallRiveraUserTest
     {
         [Fact]
         public void NameTest()
         {
-            User user = new User()
+            var user = new AnnaHallRiveraUser()
             {
                 Name = "Anna Häll Rivera"
             };

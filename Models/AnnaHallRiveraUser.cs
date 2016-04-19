@@ -2,7 +2,7 @@
 
 namespace MvcSample.Web.Models
 {
-    public class User
+    public class AnnaHallRiveraUser
     {
         [Required]
         [MinLength(4)]
