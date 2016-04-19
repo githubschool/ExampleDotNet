@@ -14,5 +14,15 @@ namespace MvcSample.Tests
             };
             Assert.Equal("Johan Eriksson", user.Name);
         }
+
+        [Fact]
+        public void AgeTest()
+        {
+            User user = new User()
+            {
+               Age = 20
+            };
+            Assert.Equal(2, user.Age);
+        }
     }
 }
