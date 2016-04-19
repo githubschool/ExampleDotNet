@@ -6,13 +6,14 @@ namespace MvcSample.Tests
     public class BasUserTest
     {
         [Fact]
-        public void NameTest()
+        public void RoleTest()
         {
             BasUser user = new BasUser()
             {
+                Name  = "Bas Peters",
                 Role = "Solutions Engineer"
             };
-            Assert.Equal("Engineer", BasUser.Role);
+            Assert.Equal("Solutions Engineer", user.Role);
         }
     }
 }
