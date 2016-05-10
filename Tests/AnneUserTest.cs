@@ -3,16 +3,16 @@ using MvcSample.Web.Models;
 
 namespace MvcSample.Tests
 {
-    public class UserTest
+    public class AnneUserTest
     {
         [Fact]
         public void NameTest()
         {
-            User user = new User()
+            AnneUser user = new AnneUser()
             {
-                Name = "Brent Beer"
+                Name = "Anne Laukka"
             };
-            Assert.Equal("Brent Beer", user.Name);
+            Assert.Equal("Anne Laukka", user.Name);
         }
     }
 }
