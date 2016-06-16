@@ -9,6 +9,6 @@ namespace MvcSample.Web.Models
         public string Name { get; set; }
         public string Address { get; set; }
         public int Age { get; set; }
-        
+        public int phoe { get; set; }
     }
 }
