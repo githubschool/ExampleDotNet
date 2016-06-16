@@ -3,7 +3,7 @@ using MvcSample.Web.Models;
 
 namespace MvcSample.Tests
 {
-    public class UserTest
+    public partial class UserTest
     {
         [Fact]
         public void NameTest()
