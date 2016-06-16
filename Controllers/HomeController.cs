@@ -7,7 +7,7 @@ namespace MvcSample.Web
     {
         public IActionResult Index()
         {
-            return View(CreateUser());
+            return View(CreateEmployee());
         }
 
         public User CreateUser()
@@ -19,6 +19,18 @@ namespace MvcSample.Web
             };
 
             return user;
+        }
+        
+        public Employee CreateEmployee()
+        {
+            Employee emp = new Employee()
+            {
+                Name = "Jayesh Pawar",
+                EmployeeID = 123,
+                OfficeLocation = "210"
+            };
+
+            return emp;
         }
     }
 }
